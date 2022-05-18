@@ -1,0 +1,211 @@
+name: 'Premium :)'
+default-points-required: 100
+required-permission: 'battlepass.premium'
+
+items:
+  doesnt-have-pass: # The item if a player does not have the premium pass.
+    material: 'chest_minecart:0'
+    name: '&c&lPOZIOM: &f%tier%'
+    lore:
+      - '&8 » &7Typ: &fNagroda premium'
+      - '&8 » &7Status: &cZablokowany &8[&c✘&8]'
+      - ''
+      - '&c&lNAGRODY:'
+      - '%lore_addon%'
+      - ''
+      - '&8 » &7Musisz kupić przepustkę bojową premium'
+      - '&8 » &7zacząć ubiegać się o nagrody premium!'
+  locked-tier-item:
+    material: 'chest_minecart:0'
+    name: '&c&lPOZIOM: &f%tier%'
+    lore:
+      - '&8 » &7Typ: &fNagroda premium'
+      - '&8 » &7Status: &cZablokowany &8[&c✘&8]'
+      - ''
+      - '&c&lNAGRODY:'
+      - '%lore_addon%'
+  unlocked-tier-item:
+    material: 'chest_minecart:0'
+    name: '&a&lPOZIOM: &f%tier%'
+    lore:
+      - '&8 » &7Typ: &fNagroda premium'
+      - '&8 » &7Status: &aOdblokowany &8[&a✔&8]'
+      - ''
+      - '&a&lNAGRODY:'
+      - '%lore_addon%'
+  claimed-tier-item:
+    material: 'minecart:0'
+    name: '&a&lPOZIOM: &f%tier%'
+    lore:
+      - '&8 » &7Typ: &fNagroda premium'
+      - '&8 » &7Status: &aOdblokowany & Odebrany &8[&a✔&8]'
+      - ''
+      - '&a&lNAGRODY:'
+      - '%lore_addon%'
+
+tier-up-actions:
+  - '[message] {&7Osiągnąłeś poziom &e%tier%}'
+
+tiers:
+  '1': # The tier number
+    rewards: ['3'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 200 # The amount of points the player must get to advance to the tier.
+  '2':
+    rewards: ['4']
+    required-points: 200
+  '3':
+    rewards: ['5']
+    required-points: 200
+  '4':
+    rewards: ['5']
+    required-points: 200
+  '5':
+    rewards: ['5']
+    required-points: 200
+  '6':
+    rewards: ['5']
+    required-points: 200
+  '7':
+    rewards: ['5']
+    required-points: 200
+  '8':
+    rewards: ['5']
+    required-points: 200
+  '9':
+    rewards: ['5']
+    required-points: 200
+  '10':
+    rewards: ['5']
+    required-points: 200
+  '11':
+    rewards: ['5']
+    required-points: 200
+  '12':
+    rewards: ['5']
+    required-points: 200
+  '13':
+    rewards: ['5']
+    required-points: 200
+  '14':
+    rewards: ['5']
+    required-points: 200
+  '15':
+    rewards: ['5']
+    required-points: 200
+  '16':
+    rewards: ['5']
+    required-points: 200
+  '17':
+    rewards: ['5']
+    required-points: 200
+  '18':
+    rewards: ['5']
+    required-points: 200
+  '19':
+    rewards: ['5']
+    required-points: 200
+  '20':
+    rewards: ['5']
+    required-points: 200
+  '21':
+    rewards: ['5']
+    required-points: 200
+  '22':
+    rewards: ['5']
+    required-points: 200
+  '23':
+    rewards: ['5']
+    required-points: 200
+  '24':
+    rewards: ['5']
+    required-points: 200
+  '25':
+    rewards: ['5']
+    required-points: 200
+  '26':
+    rewards: ['5']
+    required-points: 200
+  '27':
+    rewards: ['5']
+    required-points: 200
+  '28':
+    rewards: ['5']
+    required-points: 200
+  '29':
+    rewards: ['5']
+    required-points: 200
+  '30':
+    rewards: ['5']
+    required-points: 200
+  '31':
+    rewards: ['5']
+    required-points: 200
+  '32':
+    rewards: ['5']
+    required-points: 200
+  '33':
+    rewards: ['5']
+    required-points: 200
+  '34':
+    rewards: ['5']
+    required-points: 200
+  '35':
+    rewards: ['5']
+    required-points: 200
+  '36':
+    rewards: ['5']
+    required-points: 200
+  '37':
+    rewards: ['5']
+    required-points: 200
+  '38':
+    rewards: ['5']
+    required-points: 200
+  '39':
+    rewards: ['5']
+    required-points: 200
+  '40':
+    rewards: ['5']
+    required-points: 200
+  '41':
+    rewards: ['5']
+    required-points: 200
+  '42':
+    rewards: ['5']
+    required-points: 200
+  '43':
+    rewards: ['5']
+    required-points: 200
+  '44':
+    rewards: ['5']
+    required-points: 200
+  '45':
+    rewards: ['5']
+    required-points: 200
+  '46':
+    rewards: ['5']
+    required-points: 200
+  '47':
+    rewards: ['5']
+    required-points: 200
+  '48':
+    rewards: ['5']
+    required-points: 200
+  '49':
+    rewards: ['5']
+    required-points: 200
+  '50':
+    rewards: ['5']
+    required-points: 200
+  '51':
+    rewards: ['5']
+    required-points: 200
+  '52':
+    rewards: ['5']
+    required-points: 200
+  '53':
+    rewards: ['5']
+    required-points: 200
+  '54':
+    rewards: ['5']
+    required-points: 200

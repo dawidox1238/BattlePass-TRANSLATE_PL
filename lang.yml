@@ -1,0 +1,45 @@
+# NOTE: Remember to check each update for language file changes or you may receive 'null' messages in chat.
+
+could-not-find-user: "&7Nie można znaleźć użytkownika &e%player%"
+no-permission: "&7Nie masz uprawnień do wykonania tego polecenia."
+collectable-rewards-notification: "&e&lHEJ! &eMasz nagrody, które możesz odebrać. Sprawdź je w otwartych nagrodach /bp."
+
+daily-quest-reset: '&eNiektóre misje zostały zresetowane.'
+
+week-status-locked: '&cZablokowany &8[&c✘&8]'
+week-status-unlocked: '&aOdblokowany &8[&a✔&8]'
+week-status-claimed: '&aOdebrany &8[&a✔&8]'
+
+season-finished-message: '&aUkończony &8[&a✔&8]' # This is displayed as the %week% if the season is finished. Remove this line to have it go to the minimum week.
+
+progress-bar:
+  complete-color: '&a'
+  incomplete-color: '&c'
+  symbol: '|'
+
+stats-command:
+  - '&eTwoje statystyki Karnetu Bojowego:'
+  - '  &8- &eTyp przepustki: &f%pass_type%'
+  - '  &8- &ePoziom: &f%tier%'
+  - '  &8- &eSuma punktów: &f%total_points%'
+
+quests:
+  # The base message will be used for all quests unless another message is set.
+  base-message-progressed: "&e&lKarnet Bojowy &8// &7Udało Ci się wykonać zadanie &e%quest_name% &8(&e%progress%&7/&8&e%required_progress%&8)"
+  base-message-completed: "&e&lKarnet Bojowy &8// &7Ukończyłeś zadanie &e%quest_name%"
+
+  # The message set below will overwrite the one set as the base message.
+  # <quest name>-progressed: "<Your  message>"
+  # <quest-name>-completed: "<Your Message>"
+  # These are here as examples, and you can make as many as necessary.
+  askyblock_createisland-progressed: "&eKarnet Bojowy >> &7Niestandardowy komunikat o postępie Askyblock :D. &8(&e%progress%&7/&8%required_progress%&8)"
+  askyblock_createisland-completed: "&eKarnet Bojowy >> &7Ukończyłeś misję Askyblock Island!"
+
+daily-quests:
+  # This section will only be used if the quest is daily. If messages aren't present here but are in the quest section, it will fall back onto that message.
+  # This section is coded so you can remove it entirely and only use the quests messages if you wish.
+  base-message-progressed: "&e&lKarnet Bojowy &8// &7Udało Ci się wykonać codzienne zadanie &e%quest_name% &8(&e%progress%&7/&8&e%required_progress%&8)"
+  base-message-completed: "&e&lKarnet Bojowy &8// &7Ukończyłeś codzienne zadanie &e%quest_name%"
+
+  askyblock_createisland-progressed: "&eKarnet Bojowy >> &7Niestandardowy komunikat o postępie dziennym Askyblock :D. &8(&e%progress%&7/&8%required_progress%&8)"
+  askyblock_createisland-completed: "&eKarnet Bojowy >> &7Ukończyłeś codzienną misję Askyblock Island!"

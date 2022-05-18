@@ -1,0 +1,246 @@
+quests:
+  1:
+    type: kill-mob
+    variable: zombie
+    name: 'Tydzień 6 - Pogromca zombie'
+    required-progress: 200
+    points: 100
+    item:
+      material: wood_sword:0
+      name: '&e&lZADANIE: &fPogromca zombie'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zabij w sumie 200 zombie.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  2:
+    type: block-place
+    variable: gold_block:0 # continue from here
+    name: 'Tydzień 6 - Flexin'
+    required-progress: 128
+    points: 100
+    item:
+      material: gold_block:0
+      name: '&e&lZADANIE: &fFlexin'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7połóż 128 bloczków złota na ziemi.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  3:
+    type: kill-player
+    variable: none
+    name: 'Tydzień 6 - Morderca'
+    required-progress: 10
+    points: 100
+    item:
+      material: redstone:0
+      name: '&e&lZADANIE: &fMorderca'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zabij co najmniej 10 graczy czymkolwiek.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  4:
+    type: shear
+    variable: none
+    name: 'Tydzień 6 — Uzależniony od wełny'
+    required-progress: 200
+    points: 100
+    item:
+      material: white_wool:0
+      name: '&e&lZADANIE: &fUzależniony od wełny'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7strzyż 200 owiec na wełnę.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  5:
+    type: smelt
+    variable: gold_ingot
+    name: 'Tydzień 6 - Huta'
+    required-progress: 150
+    points: 150
+    item:
+      material: gold_ore:0
+      name: '&e&lZADANIE: &fHuta'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7przetopiłem w piecu 150 rud złota.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f150x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  6:
+    type: damage-player
+    variable: none
+    name: 'Tydzień 6 - Zabójca'
+    required-progress: 1000
+    points: 150
+    item:
+      material: iron_sword:0
+      name: '&e&lZADANIE: &fZabójca'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zadaj 1000 obrażeń graczom.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f150x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  7:
+    type: walk
+    variable: none
+    name: 'Tydzień 6 - Podróżnik'
+    required-progress: 50000
+    points: 200
+    item:
+      material: leather_boots:0
+      name: '&e&lZADANIE: &fPodróżnik'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7przejedź 50 000 bloków/metrów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f200x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  8:
+    type: tame
+    variable: wolf
+    name: 'Tydzień 6 - Pogromca Wilków'
+    required-progress: 25
+    points: 250
+    exclusive: premium
+    item:
+      material: monster_egg:91
+      name: '&e&lZADANIE: &fPogromca Wilków'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7oswoić 25 różnych wilków.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  9:
+    type: milk
+    variable: none
+    name: 'Tydzień 6 - Specjalista od Mleka'
+    required-progress: 500
+    points: 250
+    exclusive: premium
+    item:
+      material: milk_bucket:0
+      name: '&e&lZADANIE: &fSpecjalista od Mleka'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zbierz mleko od 500 krów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postep: &a%percentage_progress%'
+  10:
+    type: damage-player
+    variable: none
+    name: 'Tydzień 6 - Hitman'
+    required-progress: 2000
+    points: 350
+    exclusive: premium
+    item:
+      material: redstone:0
+      name: '&e&lZADANIE: &fHitman'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zadaj 2000 obrażeń graczom.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f350x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  11:
+    type: swimming
+    variable: none
+    name: 'Tydzień 6 - Pływak'
+    required-progress: 5000
+    points: 250
+    exclusive: premium
+    item:
+      material: water_bucket:0
+      name: '&e&lZADANIE: &fPływak'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7przepłyń 5000 bloków/metrów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  12:
+    type: votifier_vote
+    variable: none
+    name: 'Tydzień 6 — Głos zgłaszający'
+    required-progress: 10
+    points: 350
+    exclusive: premium
+    item:
+      material: paper:0
+      name: '&e&lZADANIE: &fGłos zgłaszający'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zagłosuj na serwer 10 razy.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f350x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  13:
+    type: craft
+    variable: tripwire_hook:0
+    name: 'Tydzień 6 - Trapper'
+    required-progress: 64
+    points: 250
+    exclusive: premium
+    item:
+      material: tripwire_hook:0
+      name: '&e&lZADANIE: &fTrapper'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7stwórz 64 sztuki Tripwire Hooks.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  14:
+    type: fish
+    variable: book:0
+    name: 'Tydzień 6 – Wyszukiwacz książek'
+    required-progress: 10
+    points: 250
+    exclusive: premium
+    item:
+      material: ender_pearl:0
+      name: '&e&lZADANIE: &fWyszukiwacz książek'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7łowić ryby i złapać 10 książek.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'

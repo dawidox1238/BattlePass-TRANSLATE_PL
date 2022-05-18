@@ -1,0 +1,115 @@
+menu-title: '      &8&m-(*)-&8 Karnet Bojowy &m-(*)-'
+menu-rows: 3
+
+menu:
+  '11': # The slot the item is in
+    item:
+      material: chest_minecart:0 # The material of the item. TIP: Use /bpa material item or /bpa material block.
+      name: '&e&lNAGRODY KARNETU BOJOWEGO'
+      lore:
+        - '&8 » &7Wypełniając zadania Karnetu Bojowego, możesz'
+        - '&8 » &7odbierz wiele różnych nagród karnetu bojowych.'
+        - '&7'
+        - '&8 [&eKliknij prawym przyciskiem myszy&8] &7aby otworzyć menu nagród.'
+    actions:
+      - '[menu] {rewards}'
+  '13':
+    item:
+      material: anvil:0
+      name: '&b&lKARNET BOJOWY: &f%pass_type% Version'
+      lore:
+        - '&8 » &7Trwający tydzień:&f %week%'
+        - '&8 » &7Karnet Bojowy: &f%pass_type% Version'
+        - ''
+        - '&b&lSTATYSTYKI:'
+        - '&8 » &7Twój poziom karnetu: &f%tier%'
+        - '&8 » &7Ilość punktów XP: &a%points%&8/&c%required_points%'
+  '15':
+    item:
+      material: book:0
+      name: '&d&lMISJE BATTLEPASS'
+      lore:
+        - '&8 » &7Co tydzień publikujemy dla Ciebie nowe zadania'
+        - '&8 » &7do ukończenia w zamian za XP Karnetu Bojowego.'
+        - '&7'
+        - '&8 [&dKliknij prawym przyciskiem myszy&8] &7aby otworzyć menu zadań.'
+    actions:
+      - '[menu] {quest-overview}'
+  '2':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '4':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '6':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '10':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '12':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '14':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '16':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '20':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '22':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '24':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+#  '13':
+#    item:
+#      material: book:0
+#      name: '&eWhat is the Battle Pass?'
+#      lore:
+#        - ''
+#        - '&7Level up your &eBattle Pass&7 by'
+#        - '&7completing challenging quests.'
+#        - ''
+#        - '&7Be an active player, and in'
+#        - '&7return receive amazing rewards.'
+#        - ''
+#        - '&7You can purchase the premium'
+#        - '&eBattle Pass&7 over at our store.'
+  filler: # Fills all empty slots with the following item
+    slots: fill # This will fill all empty slots. You can also do 'startslot...endslot', e.g '2...8' to fill slots 2 to 8.
+    item:
+      material: pink_stained_glass_pane

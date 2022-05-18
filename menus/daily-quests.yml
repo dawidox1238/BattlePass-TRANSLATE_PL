@@ -1,0 +1,80 @@
+menu-title: '     &8&m-(*)-&8 Codzienne zadania &m-(*)-'
+menu-rows: 5
+
+quest-slots:
+  slots: '10...16'
+
+menu:
+  '30':
+    item:
+      material: barrier:0
+      name: '&c&lPOPRZEDNIA STRONA'
+      lore:
+        - '&8 [&cKliknij prawym przyciskiem myszy&8] &7aby wrócić do poprzedniej strony.'
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+  '32':
+    item:
+      material: clock:0
+      name: '&e&lINFORMACJE'
+      lore:
+        - '&8 » &7Każdego dnia pojawiają się nowe codzienne zadania, które'
+        - '&8 » &7można ukończyć w zamian za trochę PD Karnetu Bojowego.'
+        - ''
+        - '&8 » &7Nowe zadania: &fCodziennie!'
+    actions: []
+  '21':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '23':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '29':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '31':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '33':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '39':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '41':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  filler:
+    slots: fill
+    item:
+      material: pink_stained_glass_pane
+#  '41':
+#    item:
+#      material: arrow:0
+#      name: '&eNext Page'
+#      lore:
+#        - ''
+#        - '&7&o(( Click to go to the next page ))'
+#    actions:
+#      - '[menu] {next-page}' # Take the user to the next page

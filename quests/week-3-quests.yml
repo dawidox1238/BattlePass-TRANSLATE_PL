@@ -1,0 +1,246 @@
+quests:
+  1: # Quest id
+    type: break
+    variable: stone
+    name: 'Tydzień 3 - Górnik'
+    required-progress: 1000
+    points: 100
+    item:
+      material: stone_pickaxe:0
+      name: '&e&lZADANIE: &fGórnik'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zniszcz 1000 kamiennych bloków.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  2: # Quest id
+    type: chat
+    variable: Ekstrawertyczny biznes
+    name: 'Tydzień 3 - Ekstrawertyk'
+    required-progress: 1
+    points: 100
+    item:
+      material: book:0
+      name: '&e&lZADANIE: &fZostań ekstrawertykiem'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7powiedz „Ekstrawertyczny biznes” na czacie.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  3: # Quest id
+    type: consume
+    variable: golden_apple:0
+    name: 'Tydzień 3 — Konsument Apple'
+    required-progress: 15
+    points: 150
+    item:
+      material: golden_apple:0
+      name: '&e&lZADANIE: &fKonsument jabłek'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7spożywaj 15 złotych jabłek.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f150x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  4:
+    type: craft
+    variable: glass:0
+    name: 'Tydzień 3 - Rzemieślnik Szkła'
+    required-progress: 500
+    points: 100
+    item:
+      material: glass:0
+      name: '&e&lZADANIE: &fSzklany Rzemieślnik'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7stwórz 500 pustaków szklanych.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postep: &a%percentage_progress%'
+  5:
+    type: enchant
+    variable: iron_shovel:0
+    name: 'Tydzień 3 - Czarodziej'
+    required-progress: 10
+    points: 100
+    item:
+      material: enchanted_book:0
+      name: '&e&lZADANIE: &fŁopata Czarodziej'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zaczaruj żelazną łopatę 10 razy.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  6:
+    type: gain-experience
+    variable: none
+    name: 'Tydzień 3 — Doświadczony'
+    required-progress: 3000
+    points: 100
+    item:
+      material: experience_bottle:0
+      name: '&e&lZADANIE: &fDoświadczony, dosłownie'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zbierz 3000 EXP z ziemi.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  7:
+    type: fish
+    variable: raw_fish:0
+    name: 'Tydzień 3 - Specjalista Rybny'
+    required-progress: 64
+    points: 100
+    item:
+      material: fishing_rod:0
+      name: '&e&lZADANIE: &fSpecjalista Rybny'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7złap 64 surowe ryby z połowów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fFree'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  8:
+    type: kill-mob
+    variable: creeper
+    name: 'Tydzień 3 - Eksplozja Creeper'
+    required-progress: 50
+    points: 250
+    exclusive: premium
+    item:
+      material: creeper_spawn_egg
+      name: '&e&lZADANIE: &fEksplozja Creeper'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zabij 50 pnączy, zanim eksplodują!'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  9:
+    type: walk
+    variable: none
+    name: 'Tydzień 3 - Prawdziwa przygoda'
+    required-progress: 50000
+    points: 350
+    exclusive: premium
+    item:
+      material: leather_boots:0
+      name: '&e&lZADANIE: &fPrawdziwa przygoda'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7przejedź 50 000 bloków/metrów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f350x'
+        - '&8 » &7Postep: &a%percentage_progress%'
+  10:
+    type: regenerate
+    variable: none
+    name: 'Tydzień 3 — Odzyskiwanie zdrowia'
+    required-progress: 100
+    points: 250
+    exclusive: premium
+    item:
+      material: golden_apple:0
+      name: '&e&lZADANIE: &fOdzyskiwanie zdrowia'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7odzyskać 100 punktów zdrowia.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  11:
+    type: milk
+    variable: none
+    name: 'Tydzień 3 — Hodowca krów'
+    required-progress: 200
+    points: 250
+    exclusive: premium
+    item:
+      material: milk_bucket:0
+      name: '&e&lZADANIE: &fHodowca krów'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zdobądź mleko od 100 różnych krów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  12:
+    type: gain-experience
+    variable: none
+    name: 'Tydzień 3 - Kolekcjoner EXP'
+    required-progress: 10000
+    points: 350
+    exclusive: premium
+    item:
+      material: experience_bottle:0
+      name: '&e&lZADANIE: &fKolekcjoner EXP'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zbierz 10 000 PD z ziemi.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f350x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  13:
+    type: chat
+    variable: Mam BP premium!
+    name: 'Tydzień 3 - Powiadamiacz'
+    required-progress: 1
+    points: 350
+    exclusive: premium
+    item:
+      material: book:0
+      name: '&e&lZADANIE: &fPowiadamiacz'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7powiedz "Mam BP premium!" Na czacie.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f350x'
+        - '&8 » &7Postęp: &a%percentage_progress%'
+  14:
+    type: execute-command
+    variable: vote
+    name: 'Tydzień 3 – Głosowanie'
+    required-progress: 1
+    points: 250
+    exclusive: premium
+    item:
+      material: paper:0
+      name: '&e&lZADANIE: &fGłosowanie'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7uruchom polecenie "/vote" na czacie.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7Typ: &fPremium'
+        - '&8 » &7XP: &f250x'
+        - '&8 » &7Postęp: &a%percentage_progress%'

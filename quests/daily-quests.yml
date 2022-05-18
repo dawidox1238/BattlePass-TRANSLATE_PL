@@ -1,0 +1,260 @@
+quests:
+  1: # Quest id
+    name: 'Codziennie - Złoty Specjalista' # The name given to the quest.
+    type: block-break # The type of quest
+    variable: gold_ore:0 # The block the player must break.
+    required-progress: 32 # The amount of times the player should break the coal ore block.
+    points: 100 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: gold_ore:0
+      amount: 1
+      name: '&e&lZADANIE: &fZostań specjalistą od złota'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, ty'
+        - '&8 » &7musi wydobyć 32 rudy złota!'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  2: # Quest id
+    name: 'Codziennie - Ekstrawertyk' # The name given to the quest.
+    type: chat # The type of quest
+    variable: 'Wszystko dla Battlepassu!' # The block the player must break.
+    required-progress: 1 # The amount of times the player should break the coal ore block.
+    points: 100 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: book:0
+      amount: 1
+      name: '&e&lZADANIE: &fNiech wszyscy wiedzą'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7powiedz „Wszystko dla Battlepassu!” Na czacie.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  3: # Quest id
+    type: consume
+    variable: golden_apple:0
+    name: 'Codziennie - Konsument'
+    required-progress: 5
+    points: 200
+    item:
+      material: golden_apple:0
+      name: '&e&lZADANIE: &fKonsument Jabłek'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zjedz 5 zaczarowanych złotych jabłek.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f200x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  4:
+    type: craft
+    variable: diamond_block:0
+    name: 'Codziennie - Specjalista Rzemiosła'
+    required-progress: 6
+    points: 100
+    item:
+      material: workbench
+      name: '&e&lZADANIE: &fSpecjalista od stołów rzemieślniczych'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7stwórz 6 diamentowych bloków na stole rzemieślniczym.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  5:
+    type: enchant
+    variable: gold_sword:0
+    name: 'Codziennie - Czarodziej'
+    required-progress: 1
+    points: 100
+    item:
+      material: enchanted_book:0
+      name: '&e&lZADANIE: &fCzarodziej'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zaczaruj złoty miecz czymkolwiek.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  6:
+    type: gain-experience
+    variable: none
+    name: 'Codziennie — Doświadczony'
+    required-progress: 1000
+    points: 100
+    item:
+      material: experience_bottle:0
+      name: '&e&lZADANIE: &fDoświadczony'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zbierz łącznie 1000 EXP.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  7:
+    type: fish
+    variable: none
+    name: 'Codziennie - Rybak'
+    required-progress: 5
+    points: 100
+    item:
+      material: fishing_rod:0
+      name: '&e&lZADANIE: &fRybak'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7złap 5 rzeczy na wędkę.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  8:
+    type: kill-mob
+    variable: zombie
+    name: 'Codziennie — Pogromca mobów'
+    required-progress: 100
+    points: 100
+    item:
+      material: wood_sword:0
+      name: '&e&lZADANIE: &fPogromca mobów'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zabij 100 zombie, aż umrą!'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  9:
+    type: block-place
+    variable: gold_block:0
+    name: 'Codziennie - Flexin'
+    required-progress: 16
+    points: 100
+    item:
+      material: gold_block:0
+      name: '&e&lZADANIE: &fFlexer'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7umieść 16 złotych klocków na ziemi.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+  10:
+    type: kill-player
+    variable: none
+    name: 'Codziennie - Zabójca graczy'
+    required-progress: 5
+    points: 100
+    item:
+      material: redstone:0
+      name: '&e&lZADANIE: &fZabójca graczy'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zabij 5 różnych graczy na śmierć!'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '&8 » &7Postęp: &a%total_progress%&8/&c%required_progress%'
+
+  11:
+    type: shear
+    variable: none
+    name: 'Codziennie - Wełniany Mężczyzna'
+    required-progress: 50
+    points: 100
+    item:
+      material: white_wool:0
+      name: '&e&lZADANIE: &fWełniany Mężczyzna'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7ostrzyż 50 różnych owiec.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '%status%'
+  12:
+    type: smelt
+    variable: gold_ingot
+    name: 'Codziennie - Huta'
+    required-progress: 32
+    points: 100
+    item:
+      material: gold_ore:0
+      name: '&e&lZADANIE: &fHuta Złota'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7przetop 32 rudy złota na sztabki złota!'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '%status%'
+  13:
+    type: tame
+    variable: wolf
+    name: 'Codziennie - Pogromca Wilków'
+    required-progress: 5
+    points: 100
+    item:
+      material: monster_egg:91
+      name: '&e&lZADANIE: &fPogromca Wilków'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7oswoić 5 wilków, aby być lojalnym wobec ciebie!'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '%status%'
+  14:
+    type: milk
+    variable: none
+    name: 'Codziennie - Dojarz'
+    required-progress: 50
+    points: 100
+    item:
+      material: milk_bucket:0
+      name: '&e&lZADANIE: &fDojarz'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7wydój 50 różnych krów na mleko.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f100x'
+        - '%status%'
+  15:
+    type: damage-player
+    variable: none
+    name: 'Dzienny – Hitman'
+    required-progress: 500
+    points: 200
+    item:
+      material: redstone:0
+      name: '&e&lZADANIE: &fHitman'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7zadać graczom łącznie 500 obrażeń.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f200x'
+        - '%status%'
+  16:
+    type: walk
+    variable: none
+    name: 'Codzienny – Poszukiwacz Przygód'
+    required-progress: 5000
+    points: 150
+    item:
+      material: leather_boots:0
+      name: '&e&lZADANIE: &fPoszukiwacz Przygód'
+      lore:
+        - '&8 » &7Aby ukończyć to zadanie, musisz:'
+        - '&8 » &7przejedź 5000 bloków/metrów.'
+        - ''
+        - '&e&lINFORMACJE'
+        - '&8 » &7XP: &f150x'
+        - '%status%'

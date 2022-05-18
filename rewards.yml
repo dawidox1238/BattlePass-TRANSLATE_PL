@@ -1,0 +1,38 @@
+'1': # The tier of the reward
+  type: command
+  lore-addon:
+    - '&8 [&e+&8] &f64x Iron Ingots'
+  commands:
+    - 'give %player% iron_ingot 64'
+
+'2':
+  type: command
+  lore-addon:
+    - '&8 [&e+&8] &f64x Obsidian'
+  commands:
+    - 'give %player% obsidian 64'
+
+'3':
+  type: command
+  lore-addon:
+    - '&8 [&e+&8] &fKup wiadomość'
+    - '&8 [&e+&8] &f64x Iron Ingots'
+  commands:
+    - 'msg %player% &7Dziękujemy za zakup przepustki bojowej premium! &8[&e/battlepass&8]'
+    - 'give %player% ironingot 64'
+    
+'4':
+  type: command
+  lore-addon:
+    - '&8 [&e+&8] &f64x Obsidian'
+    - '&8 [&e+&8] &f1x Diamond Chestplate'
+  commands:
+    - 'give %player% obsidian 64'
+    - 'give %player% diamondchestplate 1'
+
+'5':
+  type: command
+  lore-addon:
+    - '&8 [&e+&8] &fNowa nagroda'
+  commands:
+    - 'msg %player% NOWA NAGRODA!'

@@ -1,0 +1,115 @@
+menu-title: '        &8&m-(*)-&8 Wyzwania &m-(*)-'
+menu-rows: 5
+
+week-slots:
+  slots: '10...16' # ... is used to signify all of the ones in between. It functions the same as 11, 12, 13, 14, 15, 16, 17, 18
+
+menu:
+  '32':
+    item:
+      material: barrier
+      name: '&c&lPOPRZEDNIA STRONA'
+      lore:
+        - '&8 [&cKliknij prawym przyciskiem myszy&8] &7aby wrócić do poprzedniej strony.'
+    actions:
+      - '[menu](page = 1) {portal}'
+  '30':
+    item:
+      material: clock:0
+      name: '&a&lCODZIENNE WYZWANIA'
+      lore:
+        - '&8 » &7Każdego dnia pojawiają się nowe codzienne zadania, które'
+        - '&8 » &7można ukończyć w zamian za trochę PD Karnetu Bojowego.'
+        - '&f'
+        - '&8 » &7Nowe zadania: &fCodziennie!'
+        - '&f'
+        - '&8 [&aKliknij prawym przyciskiem myszy&8] &7aby otworzyć menu codziennych zadań.'
+    actions:
+      - '[menu] {daily-quests}'
+  '21':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '23':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '29':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '31':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '33':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '39':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '41':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  filler:
+    slots: fill
+    item:
+      material: pink_stained_glass_pane
+#  '32':
+#    item:
+#      material: arrow:0
+#      name: '&eNext Page &7(Click)'
+#      lore:
+#        - ''
+#        - '&7&o(( Click to go to the next page ))'
+#    actions:
+#      - '[menu] {next-page}'
+
+static-items:
+  week-item:
+    material: writable_book:0
+    name: '&a&lTYDZIEŃ: &f%week%'
+    lore:
+      - '&8 » &7Co tydzień publikujemy nowe cotygodniowe misje. Możesz'
+      - '&8 » &7wypełnij je w zamian za trochę PD Karnetu Bojowego.'
+      - '&f'
+      - '&a&lINFORMACJE:'
+      - '&8 » &7Status: &a%status%'
+      - '&8 » &7Ukończone zadania: &a??&8/&c14'
+      - '&f'
+      - '&8 [&aKliknij prawym przyciskiem myszy&8] &7aby zobaczyć cotygodniowe misje.'
+  locked-week-item:
+    material: book:0
+    name: '&c&lTYDZIEŃ: &f%week%'
+    lore:
+      - '&8 » &7Co tydzień publikujemy nowe cotygodniowe misje. Możesz'
+      - '&8 » &7wypełnij je w zamian za trochę PD Karnetu Bojowego.'
+      - '&f'
+      - '&c&lINFORMACJE:'
+      - '&8 » &7Status: &c%status%'
+  requires-previous-completion-item: # Only used if you have require previous completion set to true in your settings.yml.
+    material: book:0
+    name: '&c&lTYDZIEŃ: &f%week%'
+    lore:
+      - '&8 » &7Co tydzień publikujemy nowe cotygodniowe misje. Możesz'
+      - '&8 » &7wypełnij je w zamian za trochę PD Karnetu Bojowego.'
+      - '&f'
+      - '&c&lINFORMACJE:'
+      - '&8 » &7Status: &c%status%'

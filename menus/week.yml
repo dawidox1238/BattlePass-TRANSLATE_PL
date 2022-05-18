@@ -1,0 +1,82 @@
+menu-title: '       &8&m-(*)-&8 Tydzień #%week% &m-(*)-'
+menu-rows: 6
+
+quest-slots:
+  slots: '10...16, 19...26'
+
+menu:
+  '39':
+    item:
+      material: barrier
+      name: '&c&lPOPRZEDNIA STRONA'
+      lore:
+        - '&8 [&cKliknij prawym przyciskiem myszy&8] &7aby wrócić do poprzedniej strony.'
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+      - '[menu](page ! 1) {previous-page}' # If their page is not 1, take them to the previous page
+  '41':
+    item:
+      material: book
+      name: '&e&lINFORMACJE'
+      lore:
+        - '&8 » &7Co tydzień publikujemy nowe cotygodniowe misje. Możesz'
+        - '&8 » &7wypełnij je w zamian za trochę PD Karnetu Bojowego.'
+        - '&f'
+        - '&8 » &7Użytkownicy Premium uzyskują dostęp do większej liczby zadań i'
+        - '&8 » &7zdobądź do 3,5% więcej PD z misji premium.'
+    actions: []
+  '30':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '32':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '38':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '40':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '42':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '48':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  '50':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+      lore: []
+    actions: []
+  filler:
+    slots: fill
+    item:
+      material: pink_stained_glass_pane
+#  '41':
+#    item:
+#      material: arrow:0
+#      name: '&eNext Page'
+#      lore:
+#        - ''
+#        - '&7&o(( Click to go to the next page ))'
+#    actions:
+#      - '[menu] {next-page}'

@@ -1,0 +1,74 @@
+menu-title: ' &8&m-(*)-&8 Nagrody &8&m-(*)-'
+menu-rows: 6
+draw-past-max-tier: false # Whether the stained glass in the middle of the page will go past the max tier in the menu.
+
+free-reward-slots:
+  slots: '9...17' # Feel free to just use slot, slot, slot such as 0, 1, 2 instead if it's easier.
+
+premium-reward-slots:
+  slots: '27...35'
+
+progress-track-slots:
+  slots: '18...26'
+
+menu:
+  '48':
+    item:
+      material: arrow
+      name: '&c&lPOPRZEDNIA STRONA'
+      lore:
+        - '&8 [&cKliknij prawym przyciskiem myszy&8] &7wrócić do poprzedniej strony.'
+    actions:
+      - '[menu](page = 1) {portal}' # If the page is 1, take them to the portal page
+      - '[menu](page ! 1) {previous-page}' # If their page is not 1, take them to the previous page
+#  '40':
+#    item:
+#      material: book:0
+#      name: '&eWhat are rewards?'
+#      lore:
+#        - ''
+#    actions: []
+  '50':
+    item:
+      material: arrow
+      name: '&a&lNASTĘPNA STRONA'
+      lore:
+        - '&8 [&aKliknij prawym przyciskiem myszy&8] &7aby przejść do następnej strony.'
+    actions:
+      - '[menu] {next-page}'
+  '39':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+  '41':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+  '47':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+  '49':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+  '51':
+    item:
+      material: green_stained_glass_pane
+      name: '&f'
+  filler:
+    slots: fill
+    item:
+      material: pink_stained_glass_pane
+
+static-items:
+  progress-track-locked-item:
+    material: 'red_stained_glass_pane'
+    name: '&c&lPoziom: &f%tier%'
+    lore:
+      - '&8 » &7Status: &cZablokowany &8[&c✘&8]'
+  progress-track-unlocked-item:
+    material: 'lime_stained_glass_pane'
+    name: '&a&lPoziom: &f%tier%'
+    lore:
+      - '&8 » &7Status: &aOdblokowany &8[&a✔&8]'
